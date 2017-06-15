@@ -17,6 +17,7 @@ Personal DevOps Notes for Ideal Process
 - Document process for all this, not just how individual steps/components work
 - Create style guide for app, even if just super basic.
 - Accessibility standards, even if just basic.
+- Proper licensing of assets (code, images, etc.)
 
 ### Tracking/Analytics
 - Add analytics to project (like GA)
