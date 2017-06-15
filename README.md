@@ -50,6 +50,8 @@ Personal DevOps Notes for Ideal Process
 - Automated
 - Security testing (basic testing to ensure obvious things are covered)
 - Add frontend bug tracking (Sentry), backend tracking (New Relic)
+- Lighthouse score
+- Chrome lens (accesibility)
 
 #### Security
 - HTTPS on server, all connections in apps use it
