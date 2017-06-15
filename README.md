@@ -53,6 +53,12 @@ Personal DevOps Notes for Ideal Process
 
 #### Security
 - HTTPS on server, all connections in apps use it
+- Plan for handling security breach?
+
+### Problems
+- Plans for restores and rollbacks on backend components (db's, etc.)
+- Back everything up (databases, etc.)
+- Way to be alerted if there is a critical problem
 
 #### Process
 1. Issue created
