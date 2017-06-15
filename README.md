@@ -13,7 +13,7 @@ Personal DevOps Notes for Ideal Process
 - Single build script for everything
 - Project management (Zenhub or the like)
 - Proper API documentation, like [Swagger](http://swagger.io/)
-- Code documentation, in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
+- Code documentation (lots of source code, not text) in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
 - Document process for all this, not just how individual steps/components work
 
 Code
