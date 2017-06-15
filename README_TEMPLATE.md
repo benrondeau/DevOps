@@ -1,10 +1,8 @@
 # Title of project
 
-Simple description
+Insert imple description here, logos, badges etc.
 
-URL of example site, if any.
-
-Insert badges here, if any.
+Insert URL of example site, if any.
 
 ## ToDo's
 
@@ -20,3 +18,14 @@ rm -rf .git && git init
 - Create `CODE_OF_CONDUCT.md` file if needed, [more](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/)
 - Update `ISSUE_TEMPLATE.md`, `PULL_REQUEST_TEMPLATE.md` in `/.github` if needed.
 - Setup project management (like Projects, Zenhub, whatever)
+
+### Installation
+How to install dependencies and get up and running
+
+### Contributing
+
+### Questions?
+How to get your questions answered.
+
+### License
+Insert link here to `LICENSE.md`
