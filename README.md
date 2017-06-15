@@ -10,7 +10,15 @@ Personal DevOps Notes for Ideal Process
 - Continuous integration
 - Templates for issues, PRs
 - Joel test
+- Single build script for everything
+- Project management (Zenhub or the like)
+- Proper API documentation, like [Swagger](http://swagger.io/)
+- Code documentation, in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
 
 Code
 - Linting of styles, scripts
-- Testing
+- Testing, both automated and manual (each PR should list any manual QA testing steps)
+- Simplicity of complexity
+- Progressive Web Apps
+- Cross browser testing for scripts
+- Testing on real devices
