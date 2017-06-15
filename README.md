@@ -26,6 +26,7 @@ Personal DevOps Notes for Ideal Process
 - Testing on real devices
 - Build script for dev, testing, production (deploy)
 - Build it right the first time, don't be lazy.
+- Checklist like http://a11yproject.com/checklist.html?
 
 #### Testing
 - Code styles (CSS & JS)
