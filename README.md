@@ -17,6 +17,11 @@ Personal DevOps Notes for Ideal Process
 - Document process for all this, not just how individual steps/components work
 - Something about
 
+### Tracking/Analytics
+- Add analytics to project (like GA)
+- Add frontend bug tracking (ex. Sentry), analytics (ex. GA) and performance tracking (ex. New Relic Browser)
+- Add server side bug tracking (ex. Sentry), logging (ex. Papertrail), performance tracking (New Relic)
+
 #### Code
 - Linting of styles, scripts
 - Testing, both automated and manual (each PR should list any manual QA testing steps)
@@ -27,11 +32,23 @@ Personal DevOps Notes for Ideal Process
 - Build script for dev, testing, production (deploy)
 - Build it right the first time, don't be lazy.
 - Checklist like http://a11yproject.com/checklist.html?
+- Create spec for what will be supported and not (browsers, devices, accessibility, etc.)
+
+
+### Front End Process
+1. Create branch for issue from `master`
+2. Setup dev environment 
+- Launch VM's, open actual device browsers to URL
+3. Write code
+4. Add tests as I go
+5. Refer to PR checklist to ensure everything is being done correctly
+6. Create PR
 
 #### Testing
 - Code styles (CSS & JS)
 - Automated
 - Security testing (basic testing to ensure obvious things are covered)
+- Add frontend bug tracking (Sentry), backend tracking (New Relic)
 
 #### Process
 1. Issue created
