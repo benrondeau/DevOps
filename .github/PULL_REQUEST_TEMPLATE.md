@@ -18,3 +18,4 @@
 - [ ] Changes meet accessibility guidelines (link to guidelines)
 - [ ] Docs updated for changes (if necessary)
 - [ ] No merge conflicts with `master` (or `staging`)
+- [ ] Analytics changes made, like adding a new event (if any)
