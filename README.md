@@ -51,6 +51,9 @@ Personal DevOps Notes for Ideal Process
 - Security testing (basic testing to ensure obvious things are covered)
 - Add frontend bug tracking (Sentry), backend tracking (New Relic)
 
+#### Security
+- HTTPS on server, all connections in apps use it
+
 #### Process
 1. Issue created
 2. Issue triaged
