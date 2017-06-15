@@ -14,6 +14,7 @@ Personal DevOps Notes for Ideal Process
 - Project management (Zenhub or the like)
 - Proper API documentation, like [Swagger](http://swagger.io/)
 - Code documentation, in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
+- Document process for all this, not just how individual steps/components work
 
 Code
 - Linting of styles, scripts
