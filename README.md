@@ -15,7 +15,8 @@ Personal DevOps Notes for Ideal Process
 - Proper API documentation, like [Swagger](http://swagger.io/)
 - Code documentation (lots of source code, not text) in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
 - Document process for all this, not just how individual steps/components work
-- Something about
+- Create style guide for app, even if just super basic.
+- Accessibility standards, even if just basic.
 
 ### Tracking/Analytics
 - Add analytics to project (like GA)
