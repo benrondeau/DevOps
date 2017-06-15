@@ -57,6 +57,8 @@ Personal DevOps Notes for Ideal Process
 #### Security
 - HTTPS on server, all connections in apps use it
 - Plan for handling security breach?
+- Service for tracking vulnerabilities in dependencies (like Synk)
+- Directions for users how to submit security issues (same as issues?)
 
 ### Problems
 - Plans for restores and rollbacks on backend components (db's, etc.)
