@@ -15,11 +15,18 @@ Personal DevOps Notes for Ideal Process
 - Proper API documentation, like [Swagger](http://swagger.io/)
 - Code documentation (lots of source code, not text) in README, Wiki or with a tool like [GitBook](https://www.gitbook.com/)
 - Document process for all this, not just how individual steps/components work
+- Something about
 
-Code
+#### Code
 - Linting of styles, scripts
 - Testing, both automated and manual (each PR should list any manual QA testing steps)
 - Simplicity of complexity
 - Progressive Web Apps
 - Cross browser testing for scripts
 - Testing on real devices
+- Build script for dev, testing, production (deploy)
+
+#### Testing
+- Code styles (CSS & JS)
+- Automated
+- Security testing (basic testing to ensure obvious things are covered)
