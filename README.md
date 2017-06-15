@@ -25,6 +25,7 @@ Personal DevOps Notes for Ideal Process
 - Cross browser testing for scripts
 - Testing on real devices
 - Build script for dev, testing, production (deploy)
+- Build it right the first time, don't be lazy.
 
 #### Testing
 - Code styles (CSS & JS)
