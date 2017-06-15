@@ -18,3 +18,4 @@ rm -rf .git && git init
 ```
 
 - Update `LICENSE.md` file with year, name, etc.
+- Create `CODE_OF_CONDUCT.md` file if needed, [more](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/)
