@@ -43,7 +43,7 @@ Personal DevOps Notes for Ideal Process
 8. Automated build occurs on merge, pushed to prod server
 9. QA testing on prod.
 10. Issue closed
-11. Crate release, if necessary based on change.
+11. Create release, if necessary based on change.
 
 
 
