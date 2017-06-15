@@ -6,7 +6,7 @@ Personal DevOps Notes for Ideal Process
 - Code management with Git (duh)
 - Issue tracking
 - PRs
-- Release/build tagging
+- Release/build tagging, [Semver](http://semver.org/) for versioning
 - Continuous integration
 - Templates for issues, PRs
 - Joel test
@@ -31,3 +31,19 @@ Personal DevOps Notes for Ideal Process
 - Code styles (CSS & JS)
 - Automated
 - Security testing (basic testing to ensure obvious things are covered)
+
+#### Process
+1. Issue created
+2. Issue triaged
+3. Branch created from `master` with issue # in the branch name
+4. Work done according to standards above
+5. When code complete, PR created for `staging` branch (if exists) or `master`
+6. Code review and manual testing by another dev (staging or their local machine), automated testing done by CI 
+7. If everything passes muster, PR merged
+8. Automated build occurs on merge, pushed to prod server
+9. QA testing on prod.
+10. Issue closed
+11. Crate release, if necessary based on change.
+
+
+
