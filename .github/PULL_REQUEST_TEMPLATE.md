@@ -18,6 +18,7 @@ Did you add anything not of your own work (images, code, text, etc.)? If so, ple
 ### Checklist
 - [ ] Tests written for code added/changed
 - [ ] All tests pass
+- [ ] Code passes linting test
 - [ ] Changes conform to styleguide (link to styleguide)
 - [ ] Changes meet accessibility guidelines (link to guidelines)
 - [ ] Docs updated for changes (if necessary)
