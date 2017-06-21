@@ -18,12 +18,12 @@
 
 ### Environment to reproduce current functionality
 
-[Device, operating system, browser and version, status of user (logged in or not), etc.]
+[The particulars that matter, such as whether a user is logged-in or not, device type/OS, browser name and version, etc.]
 
 ### Relevant screenshots & logs
 
-[ANSWER]
+[INSERT HERE]
 
 ### Related issues (if any)
 
-[ANSWER]
+[INSERT HERE]
