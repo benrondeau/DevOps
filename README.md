@@ -9,7 +9,8 @@ Personal DevOps Notes for Ideal Process
 - Release/build tagging, [Semver](http://semver.org/) for versioning
 - Continuous integration
 - Templates for issues, PRs
-- Joel test
+- Follows applicable principles of [Joel test](https://myers.io/2017/04/04/the-joel-test-for-2017/)
+- Follows [12 Factor App](https://12factor.net/) principles
 - Single build script for everything
 - Project management (Zenhub or the like)
 - Proper API documentation, like [Swagger](http://swagger.io/)
