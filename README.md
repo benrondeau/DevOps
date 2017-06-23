@@ -6,7 +6,7 @@ Personal DevOps Notes for Ideal Process
 - Code management with Git (duh)
 - Issue tracking
 - PRs
-- Release/build tagging, [Semver](http://semver.org/) for versioning
+- Release/build tagging with changelog ([example](https://github.com/angular/angular/blob/master/CHANGELOG.md)), [Semver](http://semver.org/) for versioning.
 - Continuous integration
 - Templates for issues, PRs
 - Follows applicable principles of [Joel test](https://myers.io/2017/04/04/the-joel-test-for-2017/)
@@ -19,6 +19,7 @@ Personal DevOps Notes for Ideal Process
 - Create style guide for app, even if just super basic.
 - Accessibility standards, even if just basic.
 - Proper licensing of assets (code, images, etc.)
+- DON'T GO CRAZY GOING FOR PERFECTION ON EVERY FRONT. EVEN THE WORLD'S BEST APPS HAVE ISSUES (Facebook's mobile website is an example [Page can't load, try again error])
 
 ### Tracking/Analytics
 - Add analytics to project (like GA)
@@ -36,7 +37,7 @@ Personal DevOps Notes for Ideal Process
 - Build it right the first time, don't be lazy.
 - Checklist like http://a11yproject.com/checklist.html?
 - Create spec for what will be supported and not (browsers, devices, accessibility, etc.)
-- Create a release using `git tag` (semver standards), with a proper changelog ([example](https://github.com/angular/angular/blob/master/CHANGELOG.md)), which are integrated into releases.
+
 
 
 ### Front End Process
@@ -67,7 +68,14 @@ Personal DevOps Notes for Ideal Process
 - Back everything up (databases, etc.)
 - Way to be alerted if there is a critical problem
 
-### Process
+# Distilled Notes
+
+### Initial Planning
+- Create standards for project, including:
+  - [ ] Design standards
+  - [ ] Code standards
+
+### Code Creation
 1. Issue created
 2. Issue triaged
 3. Branch created from `master` with issue # in the branch name (ex. `132-description-of-branch`)
@@ -80,5 +88,7 @@ Personal DevOps Notes for Ideal Process
 10. Issue closed
 11. Create release, if necessary based on change.
 
+### Ongoing Maintenance
+TBD
 
 
