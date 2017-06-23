@@ -25,7 +25,7 @@ Personal DevOps Notes for Ideal Process
 - Add frontend bug tracking (ex. Sentry), analytics (ex. GA) and performance tracking (ex. New Relic Browser)
 - Add server side bug tracking (ex. Sentry), logging (ex. Papertrail), performance tracking (New Relic)
 
-#### Code
+### Code
 - Linting of styles, scripts
 - Testing, both automated and manual (each PR should list any manual QA testing steps)
 - Simplicity of complexity
@@ -36,6 +36,9 @@ Personal DevOps Notes for Ideal Process
 - Build it right the first time, don't be lazy.
 - Checklist like http://a11yproject.com/checklist.html?
 - Create spec for what will be supported and not (browsers, devices, accessibility, etc.)
+- Use of git tags to track commits, based on semver
+- Use of changelogs, which are integrated into releases.
+- When code is prod ready, create a release with changelog.
 
 
 ### Front End Process
@@ -47,7 +50,7 @@ Personal DevOps Notes for Ideal Process
 5. Refer to PR checklist to ensure everything is being done correctly
 6. Create PR
 
-#### Testing
+### Testing
 - Code styles (CSS & JS)
 - Automated
 - Security testing (basic testing to ensure obvious things are covered)
@@ -55,7 +58,7 @@ Personal DevOps Notes for Ideal Process
 - Lighthouse score
 - Chrome lens (accesibility)
 
-#### Security
+### Security
 - HTTPS on server, all connections in apps use it
 - Plan for handling security breach?
 - Service for tracking vulnerabilities in dependencies (like Synk)
@@ -66,10 +69,10 @@ Personal DevOps Notes for Ideal Process
 - Back everything up (databases, etc.)
 - Way to be alerted if there is a critical problem
 
-#### Process
+### Process
 1. Issue created
 2. Issue triaged
-3. Branch created from `master` with issue # in the branch name
+3. Branch created from `master` with issue # in the branch name (ex. `132-description-of-branch`)
 4. Work done according to standards above
 5. When code complete, PR created for `staging` branch (if exists) or `master`
 6. Code review and manual testing by another dev (staging or their local machine), automated testing done by CI 
