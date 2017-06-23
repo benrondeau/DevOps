@@ -36,9 +36,7 @@ Personal DevOps Notes for Ideal Process
 - Build it right the first time, don't be lazy.
 - Checklist like http://a11yproject.com/checklist.html?
 - Create spec for what will be supported and not (browsers, devices, accessibility, etc.)
-- Use of git tags to track commits, based on semver
-- Use of changelogs, which are integrated into releases.
-- When code is prod ready, create a release with changelog.
+- Create a release using `git tag` (semver standards), with a proper changelog ([example](https://github.com/angular/angular/blob/master/CHANGELOG.md)), which are integrated into releases.
 
 
 ### Front End Process
