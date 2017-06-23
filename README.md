@@ -28,6 +28,7 @@ Personal DevOps Notes for Ideal Process
 
 ### Code
 - Linting of styles, scripts
+- Validated using these tools (https://w3c.github.io/developers/tools/)
 - Testing, both automated and manual (each PR should list any manual QA testing steps)
 - Simplicity of complexity
 - Progressive Web Apps
