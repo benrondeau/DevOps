@@ -16,9 +16,9 @@
 Did you add anything not of your own work (images, code, text, etc.)? If so, please document license for these items.
 
 ### Checklist
-- [ ] Tests written for code added/changed
-- [ ] All tests pass
-- [ ] Code passes linting test
+- [ ] Tests written for code added, updated for code changed
+- [ ] All tests passing (unit, functional, linting, etc.)
+- [ ] PR entry added to `CHANGELOG.md`
 - [ ] Changes conform to styleguide (link to styleguide)
 - [ ] Changes meet accessibility guidelines (link to guidelines)
 - [ ] Docs updated for changes (if necessary)
