@@ -7,7 +7,7 @@
 [ANSWER]
 [LINK TO APPLICABLE CODE LINE(S) OR URL]
 
-### What is the desired functionality?
+### What is the desired functionality (acceptance criteria)?
 
 [ANSWER]
 
@@ -20,7 +20,7 @@
 
 [The particulars that matter, such as whether a user is logged-in or not, device type/OS, browser name and version, etc.]
 
-### Relevant screenshots & logs
+### Relevant screenshots, logs or any other helpful artifacts
 
 [INSERT HERE]
 
