@@ -19,6 +19,7 @@ Personal DevOps Notes for Ideal Process
 - Create style guide for app, even if just super basic.
 - Accessibility standards, even if just basic.
 - Proper licensing of assets (code, images, etc.)
+- Use [GitFlow branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 - DON'T GO CRAZY GOING FOR PERFECTION ON EVERY FRONT. EVEN THE WORLD'S BEST APPS HAVE ISSUES (Facebook's mobile website is an example [Page can't load, try again error])
 
 ### Tracking/Analytics
@@ -79,7 +80,7 @@ Personal DevOps Notes for Ideal Process
 ### Code Creation
 1. Issue created
 2. Issue triaged
-3. Branch created from `master` with issue # in the branch name (ex. `132-description-of-branch`)
+3. Branch created from `develop` with issue # in the branch name (ex. `132-description-of-branch`)
 4. Work done according to standards above
 5. When code complete, PR created for `staging` branch (if exists) or `master`
 6. Code review and manual testing by another dev (staging or their local machine), automated testing done by CI 
